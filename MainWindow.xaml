@@ -1,0 +1,29 @@
+﻿<Window x:Class="MaskNotifier.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MaskNotifier"
+        xmlns:resource="clr-namespace:MaskNotifier.Properties"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto"
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}"
+        mc:Ignorable="d"
+        WindowStyle="None"
+        AllowsTransparency="true"
+        BorderThickness="1"
+        Title="MASK NOTIFIER" 
+        Icon="Resources/icon.png"
+        Height="3"
+        Width="400">
+    <DockPanel HorizontalAlignment="Stretch" LastChildFill="true">
+        <DockPanel Background="Black" DockPanel.Dock="Top" Height="30" Name="titleBar">
+            <TextBlock Name="titleMainIcon" Text="MASK NOTIFIER" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Center" Style="{DynamicResource MaterialDesignTitleTextBlock}"/>
+        </DockPanel>
+    </DockPanel>
+</Window>
