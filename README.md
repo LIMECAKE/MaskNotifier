@@ -1,7 +1,29 @@
-# Mask Notifier
+<h1 align="center">
+  <br>
+  <p>Mask Notifier</p>
+</h1>
 
-윈도우 OS용
+<p align="center">
+    <a href="#license">
+        <img src="https://img.shields.io/github/license/LIMECAKE/MaskNotifier?style=flat-square" />
+    </a>
+    <a href="https://github.com/LIMECAKE/SAT-COUNTER/releases">
+        <img src="https://img.shields.io/github/v/release/LIMECAKE/MaskNotifier?style=flat-square" />
+    </a>
+    <a href="https://github.com/LIMECAKE/SAT-COUNTER/issues">
+        <img src="https://img.shields.io/badge/SUPPORT-END-black?style=flat-square" />
+    </a>
+</p>
 
-웰킵스몰 실시간 마스크 재고 모니터링 알람 시스템
+<p align="center">
+[WelKeeps](http://www.welkeepsmall.com) Mask Stock Monitoring Program
+</p>
 
-단, 이 프로그램을 사용함으로서 얻는 모든 책임은 사용자에게 있습니다.
+## Screenshots
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/8467374/87813117-3f428980-c89c-11ea-9819-655796bcea9f.png" width="50%"></img>
+</div>
+
+## License
+[MIT](LICENSE) © 2020 LimeCake <limecake23@gmail.com>
